@@ -1,0 +1,48 @@
+.Nav {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.Nav li {
+  float: left;
+  margin-top: 50px;
+  position: relative;
+  left: 200px;
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 18px 22px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.Nav li a
+{
+  text-decoration: None;
+}
+.Nav li:hover {
+  background-color: #5dacbd;
+  color: black;
+}
+.Nav p {
+  float: left;
+  position: relative;
+  left: 30px;
+  color: black;
+  font-family: "Trocchi", serif;
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+}
+
+.Nav li .active {
+  background-color: #5dacbd;
+  color: white;
+}
+
+.Nav img {
+  width: 200px;
+  height: 150px;
+  float: left;
+}
